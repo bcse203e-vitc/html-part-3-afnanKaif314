@@ -1,0 +1,61 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Conference Timetable</title>
+ </head>
+ <body>
+     <h1>Conference Timetable</h1>
+     <div>
+         <h3>Legend</h3>
+         <ul>
+             <li><span style="background-color: pink;">Keynote</span> - Main address</li>
+             <li><span style="background-color: yellowgreen;">Workshop</span> - Hands-on session</li>
+             <li><span style="background-color: salmon;">Panel Discussion</span> - Group discussion</li>
+             <li><span style="background-color: yellow;">Networking</span> - Informal meeting</li>
+         </ul>
+     </div>
+ 
+     <table border="1" cellpadding="8" cellspacing="0">
+         <thead>
+             <tr>
+                 <th>Time</th>
+                 <th>Room A</th>
+                 <th>Room B</th>
+                 <th>Room C</th>
+             </tr>
+         </thead>
+         <tbody>
+             <tr>
+                 <td>09:00 AM</td>
+                 <td colspan="3" style="background-color: pink;" title="Speaker: Dr. Afnan Kaif - Welcome speech and overview of the conference.">Keynote: Opening Address</td>
+             </tr>
+             <tr>
+                 <td>10:30 AM</td>
+                 <td style="background-color: pink;" rowspan="2" title="Speaker: Harrypotter - A hands-on workshop to improve programming skills.">Workshop: Coding for Beginners</td>
+                 <td style="background-color: yellowgreen;" title="Speaker: Mary Johnson - Understanding modern marketing strategies.">Workshop: Digital Marketing Basics</td>
+                 <td style="background-color: salmon;" title="Speakers: Sarah Lee, Michael Brown - Discussion about the future of AI in healthcare.">Panel: AI in Healthcare</td>
+             </tr>
+             <tr>
+                 <td>12:00 PM</td>
+                 <td style="background-color: yellowgreen;" title="Speaker: Hermoine Granger - An interactive session on graphic design tools.">Workshop: Graphic Design Tools</td>
+                 <td style="background-color: yellow;" title="Networking session - Meet other participants and discuss common interests.">Networking</td>
+             </tr>
+                 <td>02:00 PM</td>
+                 <td style="background-color: salmon;" title="Speakers: Draco Malfoy, Walter White - Experts discuss leadership in the tech industry.">Panel: Leadership in Tech</td>
+                 <td style="background-color: yellow;" title="Networking session - Open discussion and collaboration.">Networking</td>
+                 <td style="background-color: yellowgreen;" rowspan="2" title="Speaker: David Black - An advanced workshop on cloud computing.">Workshop: Cloud Computing for Experts</td>
+             </tr>
+             <tr>
+                 <td>04:00 PM</td>
+                 <td style="background-color: yellow;" title="Casual networking event.">Networking</td>
+                 <td style="background-color: salmon;" title="Speaker: Tony Stark - A discussion on the role of women in STEM.">Panel: Women in STEM</td>
+                 <td style="background-color: yellowgreen;" title="Speaker: Peter Parker - Final session on scaling apps using Kubernetes.">Workshop: Scaling Apps with Kubernetes</td>
+             </tr>
+         </tbody>
+     </table>
+ </body>
+ </html>
+ 
+ 
